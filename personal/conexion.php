@@ -1,11 +1,11 @@
 <?php 
-$contrasena = "";
-$usuario = "root";
-$nombre_bd = "multilogin";
+$contrasena = "gAmUNwUt4h9A8oOsTK1M";
+$usuario = "urh7rtr48otdetu6";
+$nombre_bd = "boao7rjp41fpfhja6cgs";
 
 try {
 	$bd = new PDO (
-		'mysql:host=localhost;
+		'mysql:host=boao7rjp41fpfhja6cgs-mysql.services.clever-cloud.com;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,

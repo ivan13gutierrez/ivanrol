@@ -1,8 +1,8 @@
 <?php
-$db_host="localhost"; //localhost server 
-$db_user="root";	//database username
-$db_password="";	//database password   
-$db_name="multilogin";	//database name
+$db_host="boao7rjp41fpfhja6cgs-mysql.services.clever-cloud.com"; //localhost server 
+$db_user="urh7rtr48otdetu6";	//database username
+$db_password="gAmUNwUt4h9A8oOsTK1M";	//database password   
+$db_name="boao7rjp41fpfhja6cgs";	//database name
 
 try
 {
@@ -15,6 +15,3 @@ catch(PDOEXCEPTION $e)
 }
 
 ?>
-
-
-
